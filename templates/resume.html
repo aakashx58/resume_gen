@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+    <!-- Update the link to use an absolute URL -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css', _external=True) }}">
+</head>
+<body>
+    <div class="resume">
+        <h1>{{ details.name }}</h1>
+        <p><strong>Email:</strong> {{ details.email }}</p>
+        <h2>Profile</h2>
+        <p>{{ details.profile }}</p>
+        <h2>Education</h2>
+        <p>{{ details.education }}</p>
+        <h2>Experience</h2>
+        <p>{{ details.experience }}</p>
+        <h2>Skills</h2>
+        <ul>
+            {% for skill in details.skills %}
+            <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+        <h2>Projects</h2>
+        <p>{{ details.projects }}</p>
+    </div>
+</body>
+</html>

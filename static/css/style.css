@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2e1534;  /* Dark purple background */
+    color: #ccc;                /* Light grey text for better readability on dark background */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Darker shadow for depth */
+    background-color: #3c1f5a; /* Slightly lighter purple for contrast */
+    border-radius: 8px;
+}
+
+.header, .footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.input-group {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input-group i {
+    margin-right: 10px;
+    color: #b39ddb; /* Lavender color for icons */
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #764ba2; /* Purple borders */
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    background-color: #241634; /* Very dark purple background for input fields */
+    color: #ccc; /* Light grey text */
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #dec20b; /* Yellow focus for visibility */
+}
+
+button {
+    background-color: #6a1b9a; /* Deeper purple for button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #9c27b0; /* Lighter purple on hover */
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+    color: #b39ddb; /* Lavender for footer links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
