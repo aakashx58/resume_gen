@@ -7,13 +7,13 @@ To draw the build To Resume Generator App Using Python. we need a Python library
 ## Step 1: Install ReportLab
 ReportLab: The Toolkit for ReportLab. A free and open-source Python package for creating images and PDFs. Install all the ReportLab library by running the following command. Run the command in the command prompt.
 
-pip install reportlab
+  pip install reportlab
 
 ## Step 2: Install Flask
 
 Flask: With the help of Flask Libraries, developers can create lightweight web apps with simplicity and rapidity using the Flask web framework. Install Flask using the command given below. Run the command in the command prompt
 
-pip install flask
+  pip install flask
 
 ##File Structure of the Resume Generator App Using Python:
 
@@ -36,4 +36,5 @@ Resume Generator/
 
 ## Output of Resume Generator App Using Python
 
-<img height="400" src="">
+<img height="400" src="https://github.com/aakashx58/resume_gen/assets/106716824/aaab49fd-84a4-4e11-84d7-fa549c81bf98">
+
